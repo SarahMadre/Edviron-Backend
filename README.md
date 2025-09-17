@@ -88,7 +88,7 @@ The server runs on `http://localhost:5000` (or the port set in `.env`).
 **Testing**
 
 * Use Postman to test all endpoints.
-* Import the provided `Postman_collection.json` (if included in repo).
+* Import the provided `Postman_collection.json` ().
 * Make sure to include the JWT token in Authorization headers for protected routes.
 
 
