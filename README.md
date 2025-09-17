@@ -88,7 +88,7 @@ The server runs on `http://localhost:5000` (or the port set in `.env`).
 **Testing**
 
 * Use Postman to test all endpoints.
-* Import the provided `Postman_collection.json` ().
+* Import the provided `Postman_collection.json` (School Payment API.postman_collection.json).
 * Make sure to include the JWT token in Authorization headers for protected routes.
 
 
