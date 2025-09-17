@@ -267,7 +267,6 @@
 
 
 // server.js
-
 import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
@@ -306,7 +305,7 @@ app.use((err, req, res, next) => {
 });
 
 // DB + server
-const PORT = process.env.PORT; // <-- Use only process.env.PORT for Render
+const PORT = process.env.PORT || 5000; // Render will always set process.env.PORT
 
 connectDB()
   .then(() => {
