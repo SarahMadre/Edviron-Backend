@@ -1,5 +1,5 @@
 import Order from "../models/Order.model.js";
-import OrderStatus from "../models/orderStatus.model.js";
+import OrderStatus from "../models/OrderStatus.model.js";
 
 // Fetch All Transactions
 export const fetchAllTransactions = async (req, res) => {
